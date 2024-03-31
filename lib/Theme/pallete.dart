@@ -30,8 +30,9 @@ class Pallete {
       elevation: 0,
     ),
   );
-  static var darkThemeMode = ThemeData.dark().copyWith(
+  static var darkThemeMode = ThemeData.dark(
     useMaterial3: true,
+  ).copyWith(
     scaffoldBackgroundColor: blackColor,
     primaryColor: blueColor,
   );
